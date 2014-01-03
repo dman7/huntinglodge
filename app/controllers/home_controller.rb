@@ -1,6 +1,6 @@
 class HomeController < ActionController::Base
   
-  def hello
+  def talk
     to_say = params[:query].to_s
 
     if to_say.length > 0
